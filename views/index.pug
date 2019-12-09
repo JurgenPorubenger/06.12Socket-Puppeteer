@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+    p="Copy URL: https://www.work.ua/ru/jobs-kyiv-javascript/ or https://www.work.ua/ru/jobs-kyiv-php/"
+    p="Copy Selector: .card-visited"
+    input(type="text" id="url_text" name="url" placeholder="url")
+    input(type="text" id="selector_text" name="selector" placeholder="selector")
+    button(type="button" id="btn" name="button") Button
+  div.main_div
+  //script(src='./javascripts/main.js')
+  script(src='./javascripts/main2.js')
+
